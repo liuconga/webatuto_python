@@ -1,5 +1,6 @@
 """测试unittest的数据驱动ddt"""
 
+
 """引入：unittest框架的本身不带数据驱动功能，所以需要引入三方框架
     方式1.ddt
     方式2.parameterized 参数化
@@ -53,6 +54,7 @@
 """
 
 import ddt
+from tool import DriverUtil
 import unittest
 from tool.read_data import ReadData
 
@@ -83,7 +85,8 @@ class TestDDt(unittest.TestCase):
     @ddt.unpack
     def test_ddt_f(self, username, password, yzm):
         print("username:", username, "passwrod:", password, "yzm:", yzm)
+        DriverUtil.get_driver().get("http://www.baidu.com")
+        DriverUtil.quit_driver()
 
-
-if __name__ == '__main__':
-    unittest.main()
+# if __name__ == '__main__':
+#     unittest.main()

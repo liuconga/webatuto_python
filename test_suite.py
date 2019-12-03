@@ -1,8 +1,9 @@
 import unittest
 
 from scripts.test_unittest import TestDemo
+from tool import HTMLTestRunner
 
-a = 1
+a = 3
 if a == 1:
     """TestSuite添加测试用例"""
     suite = unittest.TestSuite()
@@ -15,7 +16,7 @@ if a == 1:
     # 运行测试套件
     unittest.TextTestRunner().run(suite)
 
-if a == 2:
+elif a == 2:
     """TestLoader添加测试用例"""
     # 方式1：
     suite = unittest.TestLoader().discover("./", pattern='test_unittest.py')
@@ -25,3 +26,11 @@ if a == 2:
     # 方式2：
     # suite = unittest.defaultTestLoader.discover("./", pattern='test_unittest.py')
     # unittest.TextTestRunner().run(suite)
+elif a == 3:
+
+    """TestLoader添加测试用例并生成HTML测试报告"""
+    suite = unittest.TestLoader().discover("./scripts/", pattern='test_ddt.py')
+    # 运行搜到的测试用例组成的测试套件
+    with open('./report/HTMLTestRunner.html', 'wb') as f:
+        HTMLTestRunner(stream=f, verbosity=1, title=u'unittest测试报告', description=u'unittest-ddt测试报告').run(suite)
+
