@@ -4,12 +4,12 @@ import json
 import sys
 import time
 
+sys.path.append('../')
 import yaml
 from parameterized import parameterized
 
 from tool import HTMLTestRunner
 
-sys.path.append('../')
 import unittest
 import tool
 
