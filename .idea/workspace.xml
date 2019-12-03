@@ -29,22 +29,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/test_unittest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2552">
-              <caret line="116" column="20" lean-forward="true" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+            <state relative-caret-position="105">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
-                <element signature="e#15#26#0" expanded="true" />
+                <element signature="e#30#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_suite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-65">
               <caret selection-end-column="14" />
               <folding>
                 <element signature="e#15#30#0" expanded="true" />
@@ -160,7 +160,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -292,7 +292,7 @@
       <workItem from="1574995509561" duration="1101000" />
       <workItem from="1575122944825" duration="617000" />
       <workItem from="1575201222082" duration="11390000" />
-      <workItem from="1575358794747" duration="4081000" />
+      <workItem from="1575358794747" duration="4275000" />
     </task>
     <task id="LOCAL-00001" summary="unittest-jenkins集成">
       <created>1575361342380</created>
@@ -350,7 +350,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575363214703</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加getcwd">
+      <created>1575363368193</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575363368193</updated>
+    </task>
+    <task id="LOCAL-00010" summary="添加getcwd">
+      <created>1575363499511</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575363499511</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -386,7 +400,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45079000" />
+    <option name="totallyTimeSpent" value="45273000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,7 +428,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5024233" side_tool="true" weight="0.5972603" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49676898" weight="0.5972603" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49676898" visible="true" weight="0.5972603" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32876712" />
       <window_info anchor="bottom" x="21" y="199" width="1238" height="401" id="Run" order="12" sideWeight="0.503231" side_tool="true" weight="0.5972603" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -682,22 +696,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_unittest.py">
+    <entry file="file://$PROJECT_DIR$/test_suite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2552">
-          <caret line="116" column="20" lean-forward="true" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+        <state relative-caret-position="-65">
+          <caret selection-end-column="14" />
           <folding>
-            <element signature="e#15#26#0" expanded="true" />
+            <element signature="e#15#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_suite.py">
+    <entry file="file://$PROJECT_DIR$/scripts/test_unittest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="14" />
+        <state relative-caret-position="105">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding>
-            <element signature="e#15#30#0" expanded="true" />
+            <element signature="e#30#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

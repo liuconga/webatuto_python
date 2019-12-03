@@ -1,10 +1,12 @@
 # coding=utf-8
 """unittest"""
 import json
+import os
 import sys
 import time
 
 sys.path.append('../')
+sys.path.append(os.getcwd())
 import yaml
 from parameterized import parameterized
 
