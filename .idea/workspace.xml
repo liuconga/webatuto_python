@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f52aea96-8359-4e94-bdca-61e3a6427463" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/report/HTMLTestRunner.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/HTMLTestRunner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/HTMLTestRunner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_pytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_pytest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/read_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/read_data.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,53 +33,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_unittest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-              <folding>
-                <element signature="e#30#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_suite.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/__init__.py">
+        <entry file="file://$PROJECT_DIR$/scripts/test_pytest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="42" selection-start-column="42" selection-end-column="42" />
+            <state relative-caret-position="99">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tool/driver_util.py">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/allure/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+              <caret column="37" selection-start-column="37" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_ddt.py">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/allure/pytest_plugin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1078">
-              <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+            <state relative-caret-position="-21">
+              <caret line="419" column="12" selection-start-line="419" selection-start-column="12" selection-end-line="419" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tool/read_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytest.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -112,8 +119,6 @@
         <option value="$PROJECT_DIR$/cases/test_pytest.py" />
         <option value="$PROJECT_DIR$/case/test_pytest.py" />
         <option value="$PROJECT_DIR$/data/data.xml" />
-        <option value="$PROJECT_DIR$/scripts/test_pytest.py" />
-        <option value="$PROJECT_DIR$/tool/read_data.py" />
         <option value="$PROJECT_DIR$/data/data1.json" />
         <option value="$PROJECT_DIR$/data/data_ddt.json" />
         <option value="$PROJECT_DIR$/scripts/test_ddt.py" />
@@ -121,6 +126,9 @@
         <option value="$PROJECT_DIR$/tool/driver_util.py" />
         <option value="$PROJECT_DIR$/scripts/test_unittest.py" />
         <option value="$PROJECT_DIR$/test_suite.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/tool/read_data.py" />
+        <option value="$PROJECT_DIR$/scripts/test_pytest.py" />
       </list>
     </option>
   </component>
@@ -144,22 +152,12 @@
             <path>
               <item name="webatuto_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="webatuto_python" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webatuto_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webatuto_python" type="462c0819:PsiDirectoryNode" />
               <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webatuto_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="webatuto_python" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webatuto_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webatuto_python" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,7 +310,7 @@
       <workItem from="1574995509561" duration="1101000" />
       <workItem from="1575122944825" duration="617000" />
       <workItem from="1575201222082" duration="11390000" />
-      <workItem from="1575358794747" duration="5453000" />
+      <workItem from="1575358794747" duration="7842000" />
     </task>
     <task id="LOCAL-00001" summary="unittest-jenkins集成">
       <created>1575361342380</created>
@@ -461,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575364581712</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="无">
+      <created>1575364993680</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1575364993680</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -497,7 +502,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46451000" />
+    <option name="totallyTimeSpent" value="48840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,6 +515,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860725" visible="true" weight="0.27786753" />
       <window_info id="Structure" order="1" sideWeight="0.5013928" side_tool="true" weight="0.2536349" />
@@ -521,10 +527,10 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5024233" side_tool="true" weight="0.5972603" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49676898" weight="0.5972603" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49676898" visible="true" weight="0.5972603" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32876712" />
       <window_info anchor="bottom" x="21" y="199" width="1238" height="401" id="Run" order="12" sideWeight="0.503231" side_tool="true" weight="0.5972603" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -553,7 +559,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="unittest-jenkins集成" />
     <MESSAGE value="添加getcwd" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加getcwd" />
+    <MESSAGE value="无" />
+    <option name="LAST_COMMIT_MESSAGE" value="无" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/webatuto_python$read_data.coverage" NAME="read_data Coverage Results" MODIFIED="1574861795261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
@@ -700,30 +707,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tool/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-          <folding>
-            <element signature="e#1#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/read_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,33 +752,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_pytest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="33" column="80" selection-start-line="33" selection-start-column="80" selection-end-line="33" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tool/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-429" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/driver_util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_ddt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test_unittest.py">
@@ -806,8 +769,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_suite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="726">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -818,6 +781,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#1#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/driver_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_ddt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/read_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/allure/pytest_plugin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="419" column="12" selection-start-line="419" selection-start-column="12" selection-end-line="419" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/allure/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_pytest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

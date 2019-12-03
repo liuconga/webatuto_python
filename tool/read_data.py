@@ -9,7 +9,7 @@ from xlrd.sheet import Sheet
 
 
 class ReadData(object):
-    path = '../data/'
+    path = './data/'
 
     @classmethod
     def read_json(cls, file_name: str):
