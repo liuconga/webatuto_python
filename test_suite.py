@@ -1,6 +1,6 @@
 import unittest
 from scripts.test_unittest import TestDemo
-from tool import HTMLTestRunner
+from tool.HTMLTestRunner import HTMLTestRunner
 
 a = 3
 if a == 1:
