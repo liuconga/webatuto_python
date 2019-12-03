@@ -6,8 +6,7 @@ import sys
 import time
 
 sys.path.append('../')
-sys.path.append(os.getcwd())
-import yaml
+# import yaml
 from parameterized import parameterized
 
 from tool import HTMLTestRunner
@@ -121,19 +120,19 @@ class TestDemo(unittest.TestCase):
         new_txt = new_txt[1:]
         print(new_txt)
 
-    def test_yaml(self):
-        # 将列表或字典写入yaml
-        dict1 = [{"username1": {'name': '刘聪', 'age': 18}, "username2": {'name': 'ccc', 'age': 18}},
-                 {"username3": {'name': 'aaa', 'age': 18}, "username4": {'name': 'bbbb', 'age': 18}}]
-        with open('../data/data.yaml', 'w')as f:
-            # encoding:如果有中文的情况要写,allow_unicode:如果不写，中文会以unicode码形式写入yaml文件
-            yaml.dump(dict1, f, allow_unicode=True, encoding='utf-8')
-
-        # 读取yaml中内容
-        with open('../data/data.yaml', 'r')as f:
-            data = yaml.load(f, Loader=yaml.FullLoader)
-            # print(data, type(data), sep='--')  # 输出为列表类型
-
+    # def test_yaml(self):
+    #     # 将列表或字典写入yaml
+    #     dict1 = [{"username1": {'name': '刘聪', 'age': 18}, "username2": {'name': 'ccc', 'age': 18}},
+    #              {"username3": {'name': 'aaa', 'age': 18}, "username4": {'name': 'bbbb', 'age': 18}}]
+    #     with open('../data/data.yaml', 'w')as f:
+    #         # encoding:如果有中文的情况要写,allow_unicode:如果不写，中文会以unicode码形式写入yaml文件
+    #         yaml.dump(dict1, f, allow_unicode=True, encoding='utf-8')
+    #
+    #     # 读取yaml中内容
+    #     with open('../data/data.yaml', 'r')as f:
+    #         data = yaml.load(f, Loader=yaml.FullLoader)
+    #         # print(data, type(data), sep='--')  # 输出为列表类型
+    #
 
 if __name__ == '__main__':
     """此为执行方式2："""

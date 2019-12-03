@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f52aea96-8359-4e94-bdca-61e3a6427463" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/test_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/test_unittest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="104">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
                 <element signature="e#30#41#0" expanded="true" />
               </folding>
@@ -292,7 +292,7 @@
       <workItem from="1574995509561" duration="1101000" />
       <workItem from="1575122944825" duration="617000" />
       <workItem from="1575201222082" duration="11390000" />
-      <workItem from="1575358794747" duration="4275000" />
+      <workItem from="1575358794747" duration="4504000" />
     </task>
     <task id="LOCAL-00001" summary="unittest-jenkins集成">
       <created>1575361342380</created>
@@ -364,7 +364,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575363499511</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加getcwd">
+      <created>1575363566687</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575363566687</updated>
+    </task>
+    <task id="LOCAL-00012" summary="添加getcwd">
+      <created>1575363797978</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575363797978</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -400,7 +414,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45273000" />
+    <option name="totallyTimeSpent" value="45502000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -413,7 +427,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860725" visible="true" weight="0.27786753" />
       <window_info id="Structure" order="1" sideWeight="0.5013928" side_tool="true" weight="0.2536349" />
@@ -708,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test_unittest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="104">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="e#30#41#0" expanded="true" />
           </folding>
