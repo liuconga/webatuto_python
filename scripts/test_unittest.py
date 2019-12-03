@@ -130,7 +130,7 @@ class TestDemo(unittest.TestCase):
         # 读取yaml中内容
         with open('../data/data.yaml', 'r')as f:
             data = yaml.load(f, Loader=yaml.FullLoader)
-            print(data, type(data), sep='--')  # 输出为列表类型
+            # print(data, type(data), sep='--')  # 输出为列表类型
 
 
 if __name__ == '__main__':

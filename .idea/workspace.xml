@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f52aea96-8359-4e94-bdca-61e3a6427463" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/HTMLTestRunner.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/HTMLTestRunner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_suite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_unittest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/test_unittest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1443">
-              <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            <state relative-caret-position="2552">
+              <caret line="116" column="20" lean-forward="true" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
               <folding>
                 <element signature="e#15#26#0" expanded="true" />
               </folding>
@@ -47,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_suite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state>
+              <caret selection-end-column="14" />
               <folding>
                 <element signature="e#15#30#0" expanded="true" />
               </folding>
@@ -108,12 +105,12 @@
         <option value="$PROJECT_DIR$/data/data.xml" />
         <option value="$PROJECT_DIR$/scripts/test_pytest.py" />
         <option value="$PROJECT_DIR$/tool/read_data.py" />
-        <option value="$PROJECT_DIR$/scripts/test_unittest.py" />
         <option value="$PROJECT_DIR$/data/data1.json" />
         <option value="$PROJECT_DIR$/data/data_ddt.json" />
         <option value="$PROJECT_DIR$/scripts/test_ddt.py" />
         <option value="$PROJECT_DIR$/scripts/__init__.py" />
         <option value="$PROJECT_DIR$/test_suite.py" />
+        <option value="$PROJECT_DIR$/scripts/test_unittest.py" />
       </list>
     </option>
   </component>
@@ -295,7 +292,7 @@
       <workItem from="1574995509561" duration="1101000" />
       <workItem from="1575122944825" duration="617000" />
       <workItem from="1575201222082" duration="11390000" />
-      <workItem from="1575358794747" duration="3810000" />
+      <workItem from="1575358794747" duration="4081000" />
     </task>
     <task id="LOCAL-00001" summary="unittest-jenkins集成">
       <created>1575361342380</created>
@@ -339,7 +336,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575362801898</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加getcwd">
+      <created>1575363103432</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575363103432</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加getcwd">
+      <created>1575363214703</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575363214703</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -375,7 +386,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44808000" />
+    <option name="totallyTimeSpent" value="45079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,7 +401,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860725" visible="true" weight="0.27786753" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860725" visible="true" weight="0.27786753" />
       <window_info id="Structure" order="1" sideWeight="0.5013928" side_tool="true" weight="0.2536349" />
       <window_info id="Favorites" order="2" sideWeight="0.5030488" side_tool="true" weight="0.2536349" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -657,16 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_unittest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1443">
-          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-          <folding>
-            <element signature="e#15#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test_ddt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1210">
@@ -681,10 +682,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_unittest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2552">
+          <caret line="116" column="20" lean-forward="true" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_suite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state>
+          <caret selection-end-column="14" />
           <folding>
             <element signature="e#15#30#0" expanded="true" />
           </folding>
