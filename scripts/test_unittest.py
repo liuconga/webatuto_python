@@ -1,7 +1,5 @@
-# coding=utf-8
 """unittest"""
 import json
-import os
 import sys
 import time
 
