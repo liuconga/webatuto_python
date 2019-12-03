@@ -1,3 +1,4 @@
+# coding=utf-8
 import unittest
 
 from scripts.test_unittest import TestDemo
@@ -33,4 +34,3 @@ elif a == 3:
     # 运行搜到的测试用例组成的测试套件
     with open('./report/HTMLTestRunner.html', 'wb') as f:
         HTMLTestRunner(stream=f, verbosity=1, title=u'unittest测试报告', description=u'unittest-ddt测试报告').run(suite)
-
