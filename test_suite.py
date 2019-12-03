@@ -1,9 +1,6 @@
-# coding=utf-8
 import unittest
 import sys, os
-print(sys.path)
-sys.path.append(os.getcwd() + '/scripts/')
-print(sys.path)
+# sys.path.append(os.getcwd() + '/scripts/')
 from scripts import TestDemo
 from tool import HTMLTestRunner
 
