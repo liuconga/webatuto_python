@@ -2,7 +2,7 @@
 import unittest
 import sys, os
 print(sys.path)
-sys.path.append(os.getcwd() + '/scripts')
+sys.path.append(os.getcwd() + '/scripts/')
 print(sys.path)
 from scripts import TestDemo
 from tool import HTMLTestRunner
