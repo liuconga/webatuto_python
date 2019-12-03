@@ -1,0 +1,28 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1575382257273" stop="1575382257273">
+  <description>This is the tests collection phase. Failures are modules that failed to collect.</description>
+  <name>test_collection_phase</name>
+  <title>Collection phase</title>
+  <labels/>
+  <test-cases>
+    <test-case start="1575382257273" status="broken" stop="1575382257273">
+      <name>test_pytest</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>scripts/test_pytest.py:8: in &lt;module&gt;
+    class TestPyTest(object):
+scripts/test_pytest.py:28: in TestPyTest
+    @allure.description('我是描述111111')
+venv/lib/python3.7/site-packages/allure/pytest_plugin.py:427: in description
+    self._allurelistener.description(description)
+venv/lib/python3.7/site-packages/allure/pytest_plugin.py:202: in description
+    if self.test:
+venv/lib/python3.7/site-packages/allure/pytest_plugin.py:141: in test
+    return self._test[nodeid]
+E   KeyError: 'default'</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
