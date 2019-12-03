@@ -108,13 +108,12 @@ class TestDemo(unittest.TestCase):
 
     def test_txt(self):
         """测试读取txt文件"""
-        txt: list = []
-        new_txt: list = []
+        new_txt = []
         with open('../data/data.txt') as f:
             # 通过readlines读取所有行
             txt = f.readlines()
             # 拆解字符串
-            i: str
+            # i: str
             for i in txt:
                 new_txt.append(tuple(i.strip().split(',')))
         new_txt = new_txt[1:]
