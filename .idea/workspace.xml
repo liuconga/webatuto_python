@@ -39,14 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_suite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-167">
-              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-              <folding>
-                <element signature="e#15#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="65">
+              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -56,17 +53,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="14" selection-start-column="14" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tool/HTMLTestRunner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1999" />
           </provider>
         </entry>
       </file>
@@ -127,8 +114,8 @@
         <option value="$PROJECT_DIR$/scripts/test_ddt.py" />
         <option value="$PROJECT_DIR$/scripts/__init__.py" />
         <option value="$PROJECT_DIR$/scripts/test_unittest.py" />
-        <option value="$PROJECT_DIR$/test_suite.py" />
         <option value="$PROJECT_DIR$/tool/driver_util.py" />
+        <option value="$PROJECT_DIR$/test_suite.py" />
       </list>
     </option>
   </component>
@@ -315,7 +302,7 @@
       <workItem from="1574995509561" duration="1101000" />
       <workItem from="1575122944825" duration="617000" />
       <workItem from="1575201222082" duration="11390000" />
-      <workItem from="1575358794747" duration="4760000" />
+      <workItem from="1575358794747" duration="5033000" />
     </task>
     <task id="LOCAL-00001" summary="unittest-jenkins集成">
       <created>1575361342380</created>
@@ -422,7 +409,28 @@
       <option name="project" value="LOCAL" />
       <updated>1575364031432</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="添加getcwd">
+      <created>1575364131542</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1575364131542</updated>
+    </task>
+    <task id="LOCAL-00017" summary="添加getcwd">
+      <created>1575364192314</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1575364192314</updated>
+    </task>
+    <task id="LOCAL-00018" summary="添加getcwd">
+      <created>1575364274969</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1575364274969</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -458,7 +466,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45758000" />
+    <option name="totallyTimeSpent" value="46031000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -727,16 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -761,19 +759,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tool/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-429" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tool/driver_util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tool/HTMLTestRunner.py">
+    <entry file="file://$PROJECT_DIR$/test_suite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1999" />
+        <state relative-caret-position="65">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
       </provider>
     </entry>
   </component>
