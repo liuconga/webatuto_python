@@ -1,0 +1,14 @@
+[
+  {
+    "user1": {
+      "name": "liucong",
+      "age": 10
+    }
+  },
+  {
+    "user2": {
+      "name": "xiaobai",
+      "age": 12
+    }
+  }
+]

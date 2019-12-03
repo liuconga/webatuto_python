@@ -1,0 +1,12 @@
+- username1:
+    age: 18
+    name: 刘聪
+  username2:
+    age: 18
+    name: ccc
+- username3:
+    age: 18
+    name: aaa
+  username4:
+    age: 18
+    name: bbbb

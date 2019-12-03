@@ -1,0 +1,36 @@
+import pytest
+
+from tool.read_data import ReadData
+
+
+class TestPyTest(object):
+    @classmethod
+    def setup_class(cls):
+        """类级别开始"""
+        print('class-->start----')
+
+    @classmethod
+    def teardown_class(cls):
+        """类级别结束"""
+        print('class-->end----')
+
+    def setup(self):
+        """方法级别开始"""
+        print('method-->start----')
+
+    def teardown(self):
+        """方法级别结束"""
+        print('method-->end----')
+
+    """测试方法顺序"""
+    @pytest.mark.run(order=2)
+    def test2(self):
+        print('我是测试方法1111')
+
+    @pytest.mark.run(order=1)
+    def test1(self):
+        print('我是测试方法22222')
+
+    @pytest.mark.parametrize("username,password,yzm",ReadData.read_xml('data.xml'))
+    def test_xml(self,username,password,yzm):
+        print(username+password+yzm)
