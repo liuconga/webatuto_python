@@ -3,6 +3,9 @@ import json
 import sys
 import time
 
+from selenium import webdriver
+from selenium.webdriver import DesiredCapabilities
+
 sys.path.append('../')
 import yaml
 from parameterized import parameterized
@@ -131,6 +134,18 @@ class TestDemo(unittest.TestCase):
             data = yaml.load(f, Loader=yaml.FullLoader)
             # print(data, type(data), sep='--')  # 输出为列表类型
 
+
+    def test_docker(self):
+        desired_caps=DesiredCapabilities.CHROME
+
+        driver=webdriver.Remote('http://127.0.0.1:4444/wd/hub',desired_capabilities=desired_caps)
+        driver.get('http://www.baidu.com')
+        driver.find_element_by_id('kw').send_keys('你好')
+        print("我打印了呀")
+        driver.get_screenshot_as_file('error.png')
+        time.sleep(2)
+
+        driver.quit()
 
 if __name__ == '__main__':
     """此为执行方式2："""
